@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AmazonDemo1.WebPage1">
+      <class name="assertion.Hardassertion1">
         <methods>
-          <include name="allTest"/>
+          <include name="assertest"/>
         </methods>
-      </class> <!-- AmazonDemo1.WebPage1 -->
+      </class> <!-- assertion.Hardassertion1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

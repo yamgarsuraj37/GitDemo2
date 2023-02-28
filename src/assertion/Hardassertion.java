@@ -12,7 +12,7 @@ public class Hardassertion {
 	System.setProperty("webdriver.chrome.driver","D:\\tools\\chromedriver_win32\\chromedriver.exe");
     WebDriver driver = new ChromeDriver();          
     driver.manage().window().maximize();	
-    driver.get("https://www.google.com/");
+    driver.get("D:\\CD_Final\\chromedriver_win32\\chromedriver.exe");
 
      String cuurenttitle = driver.getTitle();
      System.out.println(cuurenttitle);        //Google

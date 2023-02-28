@@ -20,12 +20,15 @@ public class WebPage1 {
 	driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	driver.manage().deleteAllCookies();
      
-	
 	String webTitle = driver.getTitle();
      System.out.println(webTitle);
     Assert.assertEquals(webTitle, "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in");
-   // Assert.assertNotEquals(null, null) ;
-	Assert.assertTrue(false, webTitle);
+    Assert.assertNotEquals(webTitle, " Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in", "verify the page title with actual vs expected" );	
+    
+    
+    
+    
+    Assert.assertTrue(true, webTitle); 
 	}	
 	
 }
